@@ -126,6 +126,9 @@ h3 { font-size: var(--fs-h3) }
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
+#home > p > a:nth-child(1) > i {
+  padding-left: 4.15em;
+}
 
 .section__subtitle--work {
     color: var(--clr-accent);
@@ -276,7 +279,9 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
-    }    
+    }   
+    
+    
     
     .section__subtitle--intro {
         align-self: start;
@@ -289,7 +294,11 @@ header {
     }
 }
 
-
+@media (max-width: 800px) {
+  #home > p > a:nth-child(1) > i {
+    padding-left: 0.25em;
+  } 
+}
 
 /*  My services section  */
 
