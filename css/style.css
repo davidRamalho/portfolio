@@ -300,7 +300,7 @@ header {
   } 
 }
 
-/*  My services section  */
+/*  Skills section  */
 
 .my-services {
     background-color: var(--clr-dark);
@@ -487,6 +487,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: -3em;
 }
 
 .portfolio-item-individual p {
