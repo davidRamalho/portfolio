@@ -427,6 +427,12 @@ header {
     opacity: .5;
 }
 
+@media (max-width: 600px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+}
 
 /* footer */
 
