@@ -280,9 +280,12 @@ header {
         bottom: 10px;
         position: relative;
         z-index: 2;
-    }   
-    
-    
+    }
+
+    #lys {
+      right: 10px;
+      bottom: 10px;
+    } 
     
     .section__subtitle--intro {
         align-self: start;
