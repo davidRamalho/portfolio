@@ -1,0 +1,391 @@
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/boatRentals/DowntownMarina-Banner-Boat-Rental.jpg');
+  background-size: cover;
+  resize: none;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+.banner-overlay {
+  position: relative;
+  width: 100%;
+  height: 65%;
+  background-color: black;
+  z-index: 0;
+}
+.page-title {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 4em;
+  transform: translate(-50%, -50%);
+}
+.brands {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.brands > img {
+  width: 11%;
+}
+.img-fluid {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.beachy {
+  position: relative;
+  width: 100%;
+  height: 40em;
+  background-color: #000;
+  margin-bottom: 2.5em;
+}
+
+.slide2 {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url('../images/boatRentals/DM-Boat-Rentals-AllAboard-2204850-1600pxW.jpg');
+  -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%); 
+}
+.feeling {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #feb300;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%); 
+}
+.feeling > img {
+  position: absolute;
+  top: 3em;
+  right: 4em;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 55%;
+  top: 20%;
+  right: 15%;
+  color: #fff;
+}
+.articles > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articles > div > h1 {
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 0.9;
+  margin-bottom: 0.5em;
+}
+.articles > p {
+  width: 90%;
+  font-size: 1.2em;
+}
+
+.articles > form {
+  margin-top: 1em;
+  width: 15em;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: 600;
+  border: 0.25em solid #fff;
+}
+.articles > form > input {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.isotope-container {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 3em;
+}
+.menu {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 3em;
+}
+.menu ul li {
+  display: inline-block;
+  margin: 0;
+  font-weight: 600;
+  list-style: none;
+  padding: 0px 15px;
+  cursor: pointer;
+  transition: all .5s ease;
+  border-right: #000 solid 2px;
+}
+.menu > ul > li:nth-child(6) {
+  border-right: none;
+}
+.menu ul li:hover {
+  color: #0080c8
+}
+li.active {
+  color: #0080c8
+}
+.items {
+  width: 80%;
+  height: 100%;
+  left: 50%;
+  border: none;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  transform: translateX(-40%);
+}
+
+.items .item {
+  display: flex;
+  flex-direction: column;
+  height: 590px;
+  width: 500px;
+  margin-bottom: 2em;
+  border: #000 solid 2px;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.items .item > img {
+  width: 100%;
+  height: 262px;
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  border-bottom: #000 solid 2px;
+}
+.item-card {
+  padding: 0.75em;
+}
+.item-title {
+  font-weight: 700;
+}
+.item-details {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.rate-tables {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.item-rates {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  border-right: #000 solid;
+  padding-top: 0;
+  padding-bottom: 3em;
+  font-size: 0.9em;
+}
+.item-rates:nth-child(2) {
+  border-right: none;
+  padding-left: 1em;
+}
+.rate-type {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.item-rates > form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  background-color: #0080c8;
+  text-align: center;
+  border: none;
+  width: 70%;
+  height: 2.5em;
+  bottom: 0%;
+}
+.rate-rows {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item-rates > form > label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0080c8;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.item-rates > form.daily {
+  width: 66%;
+}
+
+.item-rates > form > label > input {
+  position: absolute;
+  top: 1%;
+  border: none;
+  background-color: #0080c8;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.item-rates > form > label > svg {
+  position: absolute;
+  right: 18%;
+  color: white;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.slide3 {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0080c8;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%); 
+}
+.tubes {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url('../images/boatRentals/DM-Wakeboarding-2204979-1600pxW.jpg');
+  background-size: cover;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%); 
+}
+
+.slide3 .articles {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 55%;
+  top: 18%;
+  left: 10%;
+  color: #fff;
+}
+.slide3 .articles > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tube-rates {
+  display: flex;
+  flex-direction: column;
+}
+.tube-rates > div {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+} 
+.tube-rates > h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.slide3 .articles > p {
+  width: 90%;
+  font-size: 1em;
+}
+
+.slide3 .articles > form {
+  margin-top: 1em;
+  width: 15em;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: 600;
+  border: 0.25em solid #fff;
+}
+.slide3 .articles > form > input {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.faq {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1.faq {
+  font-weight: 700;
+}
+.faq-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: goldenrod 1px solid;
+}
+.faq-item:nth-child(6) {
+  border-bottom: none;
+}
+.qNa > h2{
+  color: blue;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.qNa {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.answer {
+  font-weight: 600;
+}
+
+.faq-expand > .bi-plus {
+  height: 50px;
+  width: 50px;
+  color: blue;
+}
+.bi-dash {
+  height: 50px;
+  width: 50px;
+  color: #000;
+}
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 576px) { }
+
+@media only screen and (min-width: 768px) { }
+
+@media only screen and (min-width: 992px) { }
+
+@media only screen and (min-width: 1200px) { }

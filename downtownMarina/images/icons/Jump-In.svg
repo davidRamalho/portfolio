@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="41" viewBox="0 0 152 41">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 25px;
+        color: brown;
+        font-family: "Rocket Clouds";
+      }
+    </style>
+  </defs>
+  <text id="Jump_in" data-name="Jump in" class="cls-1" x="0.469" y="27.008">Jump in</text>
+</svg>

@@ -1,189 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>David Ramalho Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Ramalho Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>David Ramalho</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">
-              full stack dev
-              <a class="intro__link" href="https://www.linkedin.com/in/david-moguidante-ramalho-61061052/" target="blank">
-                <i class="fab fa-linkedin"></i></a>
-              <a class="intro__link" href="https://github.com/davidRamalho" target="blank">
-                  <i class="fab fa-github"></i></a>
-              <a class="intro__link" href="img/newResume.pdf" target="blank">
-                <i class="far fa-file-alt"></i></a>
-              <a class="intro__link" href="mailto:david.m.ramalho@gmail.com" target="blank">
-                <i class="far fa-envelope"></i></a>
-            </p>
-            <img src="img/profile.jpg" alt="a picture of David Ramalho smiling" class="intro__img">
-        </section>
-        
-        
-        
-        <!-- Skills -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">Skills</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Languages</h3>
-                    <li>
-                      JavaScript
-                    </li>
-                    <li>
-                      Ruby
-                    </li>
-                    <li>
-                      HTML
-                    </li>
-                    <li>
-                      CSS
-                    </li><br/><br/>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                  <h3>Libraries & Frameworks</h3>
-                  <li>
-                    React
-                  </li>
-                  <li>
-                    Ruby on Rails
-                  </li>
-                  <li>
-                    jQuery
-                  </li>
-                  <li>
-                    Express
-                  </li><br/><br/>
-              </div> <!-- / service -->
-                
-              <div class="service">
-                <h3>Databases & Automated Testing</h3>
-                <li>
-                  PostgreSQL
-                </li>
-                <li>
-                  Mocha Chai
-                </li>
-                <li>
-                  Jest
-                </li>
-                <li>
-                  Cypress
-                </li><br/><br/>
-            </div> <!-- / service -->
-            <div class="service">
-              <h3>Spoken Languages</h3>
-              <li>
-                English
-              </li>
-              <li>
-                Brazilian Portuguese
-              </li>
-              <li>
-                Spanish
-              </li><br/><br/>
-            </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Full Stack Developer based out of Calgary</p>
-           
-           <div class="about-me__body">
-               <p>I am a developer with a passion for code, full-stack development, continuous learning and new technologies. I am most interested in finding solutions to real-world problems. My educational and employment history revolves around science and logistics. While working in the logistics field what I most enjoyed always involved how to leverage technology to solve problems in a creative manner.</p>
-            </div>
-           
-           <img src="img/onComputer.jpg" alt="David on onComputer" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">Projects</h2>
-            <p class="section__subtitle section__subtitle--work">Click through some of my projects!</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="portfolio-item1.html" class="portfolio__item">
-                    <img src="img/Login.png" alt="" class="portfolio__img">
-                    <img src="img/MainSchedule.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="portfolio-item2.html" class="portfolio__item">
-                    <img src="img/UserPage.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="portfolio-item3.html" class="portfolio__item">
-                    <img src="img/tablet-size.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="portfolio-item4.html" class="portfolio__item">
-                  <img src="img/adding-deleting-appointments.png" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="portfolio-item5.html" class="portfolio__item">
-                  <img src="img/lysLogo.png" alt="" class="portfolio__img">
-                </a>
-              </div>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <a href="img/newResume.pdf" class="footer__link" target="blank">Resume</a>
-            <a href="mailto:david.m.ramalho@gmail.com" class="footer__link">david.m.ramalho@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/david-moguidante-ramalho-61061052/" target="blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/davidRamalho" target="blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>David Ramalho</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        full stack dev
+        <a
+          class="intro__link"
+          href="https://www.linkedin.com/in/david-moguidante-ramalho-61061052/"
+          target="blank"
+        >
+          <i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          class="intro__link"
+          href="https://github.com/davidRamalho"
+          target="blank"
+        >
+          <i class="fab fa-github"></i
+        ></a>
+        <a class="intro__link" href="img/newResume.pdf" target="blank">
+          <i class="far fa-file-alt"></i
+        ></a>
+        <a
+          class="intro__link"
+          href="mailto:david.m.ramalho@gmail.com"
+          target="blank"
+        >
+          <i class="far fa-envelope"></i
+        ></a>
+      </p>
+      <img
+        src="img/profile.jpg"
+        alt="a picture of David Ramalho smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- Skills -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Skills</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Languages</h3>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <br /><br />
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Libraries & Frameworks</h3>
+          <li>React</li>
+          <li>Ruby on Rails</li>
+          <li>jQuery</li>
+          <li>Express</li>
+          <br /><br />
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Databases & Automated Testing</h3>
+          <li>PostgreSQL</li>
+          <li>Mocha Chai</li>
+          <li>Jest</li>
+          <li>Cypress</li>
+          <br /><br />
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Spoken Languages</h3>
+          <li>English</li>
+          <li>Brazilian Portuguese</li>
+          <li>Spanish</li>
+          <br /><br />
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Full Stack Developer based out of Calgary
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a developer with a passion for code, full-stack development,
+          continuous learning and new technologies. I am most interested in
+          finding solutions to real-world problems. My educational and
+          employment history revolves around science and logistics. While
+          working in the logistics field what I most enjoyed always involved how
+          to leverage technology to solve problems in a creative manner.
+        </p>
+      </div>
+
+      <img
+        src="img/onComputer.jpg"
+        alt="David on onComputer"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Click through some of my projects!
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item1.html" class="portfolio__item">
+          <img src="img/Login.png" alt="" class="portfolio__img" />
+          <img src="img/MainSchedule.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item5.html" class="portfolio__item">
+          <img src="img/lysLogo.png" alt="" class="portfolio__img" />
+          <img src="img/lysStore.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-item6.html" class="portfolio__item">
+          <img src="img/downtownMarina.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio-item2.html" class="portfolio__item">
+          <img src="img/UserPage.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="portfolio-item3.html" class="portfolio__item">
+          <img src="img/tablet-size.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="portfolio-item4.html" class="portfolio__item">
+          <img
+            src="img/adding-deleting-appointments.png"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="img/newResume.pdf" class="footer__link" target="blank">Resume</a>
+      <a href="mailto:david.m.ramalho@gmail.com" class="footer__link"
+        >david.m.ramalho@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/david-moguidante-ramalho-61061052/"
+            target="blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/davidRamalho"
+            target="blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>

@@ -1,0 +1,218 @@
+.back {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.back > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link-back {
+  border-right: #fff solid 1px;
+}
+.back:hover {
+  cursor: pointer;
+}
+.rentalCard {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+.title {
+  display: flex;
+  align-self: flex-start;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.img-gallery {
+  border: solid #7e8a96 2px;
+  background-color: #b7c1ca;
+  border-radius: 1em;
+}
+.rentalImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.rentalImage > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: solid #7e8a96 1px;
+  border-bottom: solid #7e8a96 4px;
+  margin-bottom: 0.5em;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+.image-roll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.25em;
+}
+.sub-img {
+  border: solid black 2px;
+  border-radius: 0.25em;
+  width: 10%;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+}
+.details-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand-name {
+  display: flex;
+  align-self: flex-start;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+.detailed-info {
+  width: 50%;
+}
+.specs-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  width: 40%;
+}
+.spec {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  align-self: flex-start;
+}
+.spec-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.spec-table > div {
+  width: 50%;
+}
+.spec-table > div > div {
+  flex-direction: column;
+  border-bottom: goldenrod solid 1px;
+}
+.spec-table > div > div:nth-child(6) {
+  border-bottom: none;
+}
+.note {
+  font-size: 0.85em;
+  font-style: italic;
+}
+.pricing-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.perHour {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+.perHrTitle {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+.perHrPrice {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+.perDay {
+  width: 45%;
+  padding-left: 4.5%;
+  border-left: solid black 2px;
+  line-height: 1.2;
+}
+.perDay-title {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.times {
+  display: flex;
+  flex-direction: row;
+}
+.times > div {
+  margin-right: 5em;
+}
+.perDayPrices {
+  display: flex;
+  flex-direction: row;
+}
+.perDayPrices > div {
+  margin-right: 2.3em;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0080c8;
+  text-align: center;
+  border: none;
+  width: 12em;
+  height: 3em;
+  color: #fff;
+  bottom: 0%;
+  margin-top: 1em;
+}
+
+form > label {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+form > label > input {
+  position: absolute;
+  color: #fff;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+form > label > svg {
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+}

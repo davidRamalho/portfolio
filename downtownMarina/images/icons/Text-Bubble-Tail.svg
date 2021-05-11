@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.375" height="36.16" viewBox="0 0 52.375 36.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0080c8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Text_Bubble_Tail" data-name="Text Bubble Tail" class="cls-1" d="M174.614,3254.58s9.935,19.62,23.748,21.66c17.449,2.56,27.94-4.89,27.94-4.89l0.7-30.74s-8.588,17.5-25.145,19.56C184.919,3262.27,174.614,3254.58,174.614,3254.58Z" transform="translate(-174.625 -3240.62)"/>
+</svg>
